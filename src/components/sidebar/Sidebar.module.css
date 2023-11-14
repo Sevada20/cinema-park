@@ -1,0 +1,25 @@
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 34px;
+  margin-right: 41px;
+  gap: 30px;
+}
+.selectedIcon {
+  background-color: #3b486d;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -8px;
+}
+.sidebarContainer img {
+  width: 25px;
+  height: 25px;
+  color: #f1f1f1;
+  opacity: 60%;
+  cursor: pointer;
+}

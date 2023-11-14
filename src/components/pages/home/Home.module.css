@@ -1,0 +1,63 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  margin-top: 40px;
+}
+.homeContainer h3 {
+  display: block;
+  color: white;
+}
+.filmDescription span {
+  display: block;
+  color: white;
+}
+.filmDescription h5 {
+  color: #7f8082;
+}
+.filmDescription p,
+h5 {
+  color: white;
+}
+.filmDescription p {
+  width: 600px;
+}
+.movieButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.buttonPlayDiv {
+  width: 220px;
+  height: 62px;
+  background: #f1f1f1 0% 0% no-repeat;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonMoreDiv {
+  width: 220px;
+  height: 62px;
+  background: transparent linear-gradient(128deg, #2727f5 0%, #001671 100%) 0%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonMoreDiv span {
+  font-size: 32px;
+  color: #f1f1f1;
+  font: bold;
+}
+
+.buttonPlayDiv span {
+  font-size: 32px;
+  color: #f1f1f1;
+  font: bold;
+  color: black;
+}
