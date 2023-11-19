@@ -3,6 +3,7 @@
   flex-direction: column;
   column-gap: 30px;
   margin-top: 40px;
+  margin-left: 85px;
 }
 .homeContainer h3 {
   display: block;
@@ -31,7 +32,7 @@ h5 {
 
 .buttonPlayDiv {
   width: 220px;
-  height: 62px;
+  height: 55px;
   background: #f1f1f1 0% 0% no-repeat;
   border-radius: 40px;
   display: flex;
@@ -41,7 +42,7 @@ h5 {
 }
 .buttonMoreDiv {
   width: 220px;
-  height: 62px;
+  height: 55px;
   background: transparent linear-gradient(128deg, #2727f5 0%, #001671 100%) 0%;
   border-radius: 40px;
   display: flex;

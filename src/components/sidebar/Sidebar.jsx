@@ -10,14 +10,35 @@ import search from "../../assets/sidebarIcons/ICON - Search.png";
 const Sidebar = () => {
   return (
     <div className={styles.sidebarContainer}>
-      <img src={search} />
-      <div className={styles.selectedIcon}>
-        <img src={home} />
+      <div className={styles.iconContainer}>
+        <img src={search} />
+        <span>Search</span>
       </div>
-      <img src={icon5} />
-      <img src={icon4} />
-      <img src={icon3} />
-      <img src={icon2} />
+      <div className={styles.iconContainer}>
+        <img src={home} />
+        <span>Home</span>
+      </div>
+      <div className={styles.iconContainer}>
+        <img src={icon5} />
+        <span>TV Shows</span>
+      </div>
+      <div className={styles.iconContainer}>
+        <img src={icon4} />
+        <span>Movies</span>
+      </div>
+      <div className={styles.iconContainer}>
+        <img src={icon3} />
+        <span>Henres</span>
+      </div>
+      <div className={styles.iconContainer}>
+        <img src={icon2} />
+        <span>Watch Later</span>
+      </div>
+      <div className={styles.bottomTextContainer}>
+        <span>LANGUAGE</span>
+        <span>GET HELP</span>
+        <span>EXIT</span>
+      </div>
     </div>
   );
 };

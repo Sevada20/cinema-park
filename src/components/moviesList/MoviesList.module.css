@@ -1,3 +1,6 @@
+.moviesContainer {
+  /* margin-left: 210px; */
+}
 .Modal {
   display: flex;
   justify-content: center;

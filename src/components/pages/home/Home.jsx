@@ -7,7 +7,7 @@ const Home = () => {
     <div className={styles.homeContainer}>
       <div className={styles.filmDescription}>
         <h5>MOVIE</h5>
-        <img src={titleIcon} width={520} height={140} />
+        <img src={titleIcon} width={520} height={90} />
         <span>2021 18+ 1h 48m</span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
